@@ -1,0 +1,23 @@
+{
+  "name": "@levelup/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "find ./ -name node_modules -type d -exec rm -rf {} +",
+    "main:start": "pnpm -F @levelup/main start",
+    "second:start": "pnpm -F @levelup/second start",
+    "start": "pnpm -r start",
+    "all:update": "pnpm -r run update -L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=17.0.0",
+    "pnpm": ">=7.5.0"
+  },
+  "dependencies": {
+    "just-kebab-case": "^4.1.1"
+  }
+}

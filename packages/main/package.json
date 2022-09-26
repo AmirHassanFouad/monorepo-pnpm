@@ -1,0 +1,17 @@
+{
+  "name": "@levelup/main",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@levelup/second": "workspace:*",
+    "just-snake-case": "3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
